@@ -1,0 +1,33 @@
+For LOG4NET testing
+
+Class BankAccount
+
+2 fields: customerName and balance.
+2 methods, Debit - throw exceptions if amount > balance or amount <0, debit amount from balance if ok
+and Credit - throw exception if amount <0, credit balance with amount if ok.
+
+testClass BankAccountTests
+
+TestMethod Debit_Test
+
+Test cases
+
+1) debitAmount < beginningBalance
+
+Expected result: test passed, Message like "Test succesfully passed, amount of 10 is debited from 11.99. New balance is:1.99"
+should be logged in file.
+
+2) debitAmount > beginningBalance
+
+Expected result: test failed, Message like "Customer: Mr. Bryan Walton-Debit amount exceeds balance
+Parameter name: amount Actual value was 20." should be logged in file.
+
+3) debitAmount <0
+
+Expected result: test failed, Message like " Customer: Mr. Bryan Walton-Debit amount less than zero
+Parameter name: amount Actual value was -5." should be logged in file.
+
+Log4net configuration
+
+[assembly: log4net.Config.XmlConfigurator(Watch = true)] is added to AssemblyInfo.cs
+Other configuration is done through log4net section in App.config.

@@ -1,0 +1,75 @@
+2017-12-18 11:49:38,828 [11] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 7.34 is debited from 11.99. New balance is:4.65
+2017-12-18 11:51:14,831 [11] ERROR BankTest.BankAccountTests - Customer: Pavle Pavlovic-Debit amount exceeds balance
+Parameter name: amount
+Actual value was 15.5.
+2017-12-18 11:52:47,556 [9] ERROR BankTest.BankAccountTests - Customer: Pavle Pavlovic-Debit amount exceeds balance
+Parameter name: amount
+Actual value was 15.5.
+2017-12-18 12:00:22,709 [9] ERROR BankTest.BankAccountTests - Customer: Pavle Pavlovic-Debit amount exceeds balance
+Parameter name: amount
+Actual value was 15.5.
+2017-12-18 12:01:58,711 [11] ERROR BankTest.BankAccountTests - Customer: Pavle Pavlovic-Debit amount less than zero
+Parameter name: amount
+Actual value was -3.
+2017-12-18 12:03:00,494 [11] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 11.99 is debited from 11.99. New balance is:0
+2017-12-18 12:05:39,823 [9] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 11.99 is debited from 11.99. New balance is:0
+2018-01-09 16:20:40,514 [11] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 9 is debited from 11.99. New balance is:2.99
+2018-01-12 18:12:38,868 [9] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 9 is debited from 11.99. New balance is:2.99
+2018-01-12 18:43:54,700 [9] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 9 is debited from 11.99. New balance is:2.99
+2018-01-14 13:44:30,297 [9] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 9 is debited from 11.99. New balance is:2.99
+2018-01-14 13:45:13,526 [13] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 9 is debited from 11.99. New balance is:2.99
+2018-01-14 13:45:17,479 [13] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 9 is debited from 11.99. New balance is:2.99
+2018-01-14 13:53:47,172 [13] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 9 is debited from 11.99. New balance is:2.99
+2018-01-14 13:53:57,854 [13] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 9 is debited from 11.99. New balance is:2.99
+2018-01-14 13:54:45,652 [11] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 9 is debited from 11.99. New balance is:2.99
+2018-01-14 17:40:22,508 [11] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 9 is debited from 11.99. New balance is:2.99
+2018-01-15 00:24:46,009 [11] INFO BankTest.BankAccountTests - Test passed, the amount of credit 23.5 has been successfully added to the beginning balance of 30.1. New balance is now 51.25.
+2018-01-15 00:25:51,531 [11] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 9 is debited from 11.99. New balance is:2.99
+2018-01-15 00:32:03,826 [11] INFO BankTest.BankAccountTests - Test passed, the amount of credit 23.5 has been successfully added to the beginning balance of 30.1. New balance is now 51.25.
+2018-01-15 00:33:57,082 [11] INFO BankTest.BankAccountTests - Test passed, the amount of credit 23.5 has been successfully added to the beginning balance of 30.1. New balance is now 51.25.
+2018-01-15 00:36:00,989 [11] ERROR BankTest.BankAccountTests - It is impossible to add negative credit amount to a bank account.Specified argument was out of the range of valid values.
+Parameter name: amount
+2018-01-15 00:36:54,950 [11] ERROR BankTest.BankAccountTests - Specified argument was out of the range of valid values.
+Parameter name: amountIt is impossible to add negative credit amount to a bank account.
+2018-01-15 00:37:33,522 [11] ERROR BankTest.BankAccountTests - Specified argument was out of the range of valid values.
+Parameter name: amount It is impossible to add negative credit amount to a bank account.
+2018-01-15 00:39:23,235 [11] INFO BankTest.BankAccountTests - Test passed, the amount of credit 23.5 has been successfully added to the beginning balance of 30.1. New balance is now 51.25.
+2018-01-15 00:42:38,380 [11] INFO BankTest.BankAccountTests - Test passed, the amount of credit 23.5 has been successfully added to the beginning balance of 30.1. New balance is now 51.25.
+2018-01-15 00:43:15,985 [9] ERROR BankTest.BankAccountTests - Customer: Olga Cukucan-Specified argument was out of the range of valid values.
+Parameter name: amount It is impossible to add negative credit amount to a bank account.
+2018-01-15 00:43:56,873 [11] ERROR BankTest.BankAccountTests - Customer: Olga Cukucan-Specified argument was out of the range of valid values.
+Parameter name: amount. It is impossible to add negative credit amount to a bank account.
+2018-01-15 00:44:19,479 [11] ERROR BankTest.BankAccountTests - Customer: Olga Cukucan - Specified argument was out of the range of valid values.
+Parameter name: amount. It is impossible to add negative credit amount to a bank account.
+2018-01-15 00:51:53,403 [9] ERROR BankTest.BankAccountTests - Customer: Olga Cukucan - Specified argument was out of the range of valid values.
+Parameter name: amount. It is impossible to add negative credit amount to a bank account.
+2018-01-15 00:52:02,429 [11] ERROR BankTest.BankAccountTests - Customer: Olga Cukucan - Specified argument was out of the range of valid values.
+Parameter name: amount. It is impossible to add negative credit amount to a bank account.
+2018-01-15 00:52:12,477 [11] ERROR BankTest.BankAccountTests - Customer: Olga Cukucan - Specified argument was out of the range of valid values.
+Parameter name: amount. It is impossible to add negative credit amount to a bank account.
+2018-01-15 00:53:00,797 [9] INFO BankTest.BankAccountTests - Test passed, the amount of credit 23.5 has been successfully added to the beginning balance of 30.1. New balance is now 51.25.
+2018-01-15 01:01:56,457 [11] ERROR BankTest.BankAccountTests - Customer: Olga Cukucan - Specified argument was out of the range of valid values.
+Parameter name: amount. It is impossible to add negative credit amount to a bank account.
+2018-01-16 16:30:40,041 [9] INFO BankTest.BankAccountTests - Test passed, the amount of credit 20 has been successfully added to the beginning balance of 300. New balance is now 318.
+2018-01-16 16:31:23,647 [9] ERROR BankTest.BankAccountTests - Customer: Olga Cukucan - Specified argument was out of the range of valid values.
+Parameter name: amount. It is impossible to add negative credit amount to a bank account.
+2018-01-16 17:26:30,510 [9] ERROR BankTest.BankAccountTests - Customer: Olga Cukucan - Specified argument was out of the range of valid values.
+Parameter name: amount. It is impossible to add negative credit amount to a bank account.
+2018-01-16 19:00:08,639 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <400> and actual value <420>. 
+2018-01-16 19:03:07,152 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <580> and actual value <700>. 
+2018-01-16 19:04:39,473 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <580> and actual value <700>. 
+2018-01-16 19:04:53,653 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <580> and actual value <700>. 
+2018-01-16 19:09:21,855 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <0> and actual value <700>. 
+2018-01-16 19:09:56,782 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <0> and actual value <700>. 
+2018-01-16 19:10:49,843 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
+2018-01-16 19:12:01,382 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
+2018-01-16 20:33:53,118 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
+2018-01-16 20:34:38,581 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
+2018-01-16 20:36:11,645 [9] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
+2018-01-16 20:37:47,471 [9] INFO BankTest.BankAccountTests - Test passed, the amount of credit 20 has been successfully added to the beginning balance of 300. New balance is now 318.
+2018-01-16 20:37:52,565 [11] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 9 is debited from 11.99. New balance is:2.99
+2018-01-16 20:37:56,453 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
+2018-01-16 20:39:50,458 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
+2018-01-16 20:44:10,844 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
+2018-01-16 20:45:02,877 [9] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
+2018-01-16 20:48:30,648 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
