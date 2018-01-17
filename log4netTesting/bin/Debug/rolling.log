@@ -95,3 +95,5 @@ Parameter name: amount. It is impossible to add negative credit amount to a bank
 2018-01-17 23:05:08,458 [11] INFO BankTest.BankAccountTests - The test passed. The amount of 530 was debitted from bank account. New balance is: 670.
 2018-01-17 23:05:27,973 [11] ERROR BankTest.BankAccountTests - Customer: Olga Cukucan-Specified argument was out of the range of valid values.
 Parameter name: -100
+2018-01-17 23:25:57,098 [11] ERROR BankTest.BankAccountTests - Customer: Olga Cukucan-Specified argument was out of the range of valid values.
+Parameter name: -100
