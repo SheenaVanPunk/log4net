@@ -111,25 +111,35 @@ namespace BankTest
             string Name = "Olga Cukucan";
             bool testPassed = true;
 
+
             try
             {
 
                 double beginningBalance = 700;
-                double debitAmount = 80;
+                double debitAmount = 800;
                 double expected = beginningBalance - debitAmount;
-                double newBalance = expected;
+                if (expected >100 && expected <500)
+                { expected += 500;
+                    log.Info("Neither of conditions is fulfilled. The original balance got an increase in 500.");
+                }
                 BankAccount bnk = new BankAccount(Name, beginningBalance);
 
-                double actual = bnk.Balance;
-                bnk.BalanceCheck(debitAmount, newBalance);
-                    
+
+                double actual  =  bnk.BalanceCheck(debitAmount);
+                
                 Assert.AreEqual(expected, actual, 0.001); // gde su expected i actual definisani u obradi
 
-                if (testPassed)
+                if (expected>500)
                 {
-                    log.Info("The test passed. The amount of "+ debitAmount.ToString()+" was debitted from bank account. New balance is: {0]" + newBalance + "." ); // poruka kad prodje test se upise u ovom redu
-                }
+                        log.Info("The test passed. The amount of " + debitAmount.ToString() + " was debitted from bank account. New balance is: " + actual + "."); // poruka kad prodje test se upise u ovom redu
 
+                }
+               /* else if(expected <=100)
+                {
+                    log.Info("The test has failed")
+                }
+                */
+          
 
             }
             catch (ArgumentOutOfRangeException e)

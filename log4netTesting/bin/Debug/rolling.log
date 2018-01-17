@@ -73,3 +73,25 @@ Parameter name: amount. It is impossible to add negative credit amount to a bank
 2018-01-16 20:44:10,844 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
 2018-01-16 20:45:02,877 [9] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
 2018-01-16 20:48:30,648 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
+2018-01-17 19:40:50,088 [9] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
+2018-01-17 19:41:13,826 [11] INFO BankTest.BankAccountTests - Test passed, the amount of credit 20 has been successfully added to the beginning balance of 300. New balance is now 318.
+2018-01-17 19:41:18,051 [9] INFO BankTest.BankAccountTests - Test succesfully passed, amount of 9 is debited from 11.99. New balance is:2.99
+2018-01-17 19:42:39,244 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
+2018-01-17 19:45:04,983 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <620> and actual value <700>. 
+2018-01-17 19:45:55,652 [9] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected:<620>. Actual:<700>. 
+2018-01-17 19:51:31,355 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected:<620>. Actual:<700>. 
+2018-01-17 19:51:49,171 [11] INFO BankTest.BankAccountTests - The test passed. The amount of 80 was debitted from bank account. New balance is: {0]620.
+2018-01-17 19:54:42,699 [9] INFO BankTest.BankAccountTests - The test passed. The amount of 80 was debitted from bank account. New balance is: {0]620.
+2018-01-17 19:55:52,213 [11] INFO BankTest.BankAccountTests - The test passed. The amount of 80 was debitted from bank account. New balance is:620.
+2018-01-17 22:52:19,539 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <170> and actual value <700>. 
+2018-01-17 22:54:11,785 [11] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <170> and actual value <700>. 
+2018-01-17 22:55:11,367 [9] ERROR BankTest.BankAccountTests - Trace: Assert.AreEqual failed. Expected a difference no greater than <0.001> between expected value <170> and actual value <670>. 
+2018-01-17 22:59:48,206 [11] INFO BankTest.BankAccountTests - The test passed. The amount of 530 was debitted from bank account. New balance is: 670.
+2018-01-17 23:01:24,539 [9] INFO BankTest.BankAccountTests - Neither of conditions is fulfilled. The original balance got an increase in 500.
+2018-01-17 23:01:24,557 [9] INFO BankTest.BankAccountTests - The test passed. The amount of 530 was debitted from bank account. New balance is: 670.
+2018-01-17 23:02:10,354 [9] INFO BankTest.BankAccountTests - Neither of conditions is fulfilled. The original balance got an increase in 500.
+2018-01-17 23:02:10,380 [9] INFO BankTest.BankAccountTests - The test passed. The amount of 530 was debitted from bank account. New balance is: 670.
+2018-01-17 23:05:08,441 [11] INFO BankTest.BankAccountTests - Neither of conditions is fulfilled. The original balance got an increase in 500.
+2018-01-17 23:05:08,458 [11] INFO BankTest.BankAccountTests - The test passed. The amount of 530 was debitted from bank account. New balance is: 670.
+2018-01-17 23:05:27,973 [11] ERROR BankTest.BankAccountTests - Customer: Olga Cukucan-Specified argument was out of the range of valid values.
+Parameter name: -100

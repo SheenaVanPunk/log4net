@@ -87,28 +87,52 @@ namespace BankAccountNS
        
         }
 
-        public void BalanceCheck(double amount, double newBalance)
+        /*  public void BalanceCheck(double amount, double n_balance)
+          {
+
+
+              if (n_balance > 500)
+              {
+
+                  Console.WriteLine("New balance is: {0}", n_balance);
+
+                  n_balance = m_balance - amount;
+              }
+              if (n_balance <= 100 && n_balance < 0)
+              {
+                  throw new ArgumentOutOfRangeException(n_balance.ToString());
+              }
+
+              else
+              {
+                  n_balance = m_balance + 500;
+                  Console.WriteLine("None of the previous conditions is fulfilled, the balance increased for 500.");
+              }
+          }
+          */
+
+        public double BalanceCheck(double amount)
         {
-            double n_balance = newBalance;
-            n_balance = m_balance - amount;
-            
+            double n_balance;
+            n_balance= m_balance - amount;
+
             if (n_balance > 500)
             {
-                
-                Console.WriteLine("New balance is: {0}", n_balance);
+               return n_balance ;
             }
-                if (n_balance <= 100 && n_balance<0)
-                {
+            else if (n_balance <= 100)
+            {
                 throw new ArgumentOutOfRangeException(n_balance.ToString());
-                }  
-            
+            }
             else
             {
-                n_balance = m_balance + 500;
-                Console.WriteLine("None of the previous conditions is fulfilled, the balance increased for 500.");
+                n_balance += 500;
+                return n_balance;
             }
-
-          
+            /*if (n_balance < 0)
+            {
+                throw new ArgumentOutOfRangeException(n_balance.ToString());
+            } */
         }
     }
 }
