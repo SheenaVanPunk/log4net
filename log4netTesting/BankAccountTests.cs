@@ -80,7 +80,7 @@ namespace BankTest
             try
             {
                 double balance = 300;
-                double creditAmount = 20;
+                double creditAmount = -20;
                 double expected = balance + (creditAmount - creditAmount * 0.1);
                 BankAccount bnkacc = new BankAccount(Name, balance);
 
@@ -93,21 +93,21 @@ namespace BankTest
                     log.Info("Test passed, the amount of credit " + creditAmount.ToString() + " has been successfully added to the beginning balance of " + balance.ToString() + ". New balance is now " + actual.ToString() + ".");
 
                 }
-                
+
             }
             catch (ArgumentOutOfRangeException a)
-            { 
-             
+            {
+
                 log.Error("Customer: " + Name + " - " + a.Message.ToString() + ". It is impossible to add negative credit amount to a bank account.");
                 Assert.Fail();
                 testPassed = false;
             }
         }
-        [TestMethod]
 
+        [TestMethod]
         public void BalanceCheck_Test()
         {
-            log4net.Config.XmlConfigurator.Configure(); // komanda koja ispisuje logove u eksternom tekstualnom fajlu
+            log4net.Config.XmlConfigurator.Configure();
             string Name = "Olga Cukucan";
             bool testPassed = true;
 
@@ -116,39 +116,34 @@ namespace BankTest
             {
 
                 double beginningBalance = 700;
-                double debitAmount = 800;
+                double debitAmount = -634;
                 double expected = beginningBalance - debitAmount;
-                if (expected >100 && expected <500)
-                { expected += 500;
-                    log.Info("Neither of conditions is fulfilled. The original balance got an increase in 500.");
+
+                if (expected > 100 && expected < 500)
+                {
+                    expected += 500;
+                    log.Info("The new balance after the 500 bonus is: " + expected.ToString());
+
                 }
+
                 BankAccount bnk = new BankAccount(Name, beginningBalance);
 
+                double actual = bnk.BalanceCheck(debitAmount);
+                Assert.AreEqual(expected, actual, 0.001);
 
-                double actual  =  bnk.BalanceCheck(debitAmount);
-                
-                Assert.AreEqual(expected, actual, 0.001); // gde su expected i actual definisani u obradi
-
-                if (expected>500)
+                if (testPassed)
                 {
-                        log.Info("The test passed. The amount of " + debitAmount.ToString() + " was debitted from bank account. New balance is: " + actual + "."); // poruka kad prodje test se upise u ovom redu
-
+                    log.Info("The amount of " + debitAmount.ToString() + " was debitted from bank account. New balance is: " + actual + "."); // poruka kad prodje test se upise u ovom redu     
                 }
-               /* else if(expected <=100)
-                {
-                    log.Info("The test has failed")
-                }
-                */
-          
+            } 
 
-            }
             catch (ArgumentOutOfRangeException e)
             {
 
                 log.Error("Customer: " + Name + "-" + e.Message.ToString());
                 Assert.Fail();
                 testPassed = false;
-                //return;
+
             }
             catch (Exception e)
             {
@@ -156,7 +151,7 @@ namespace BankTest
                 log.Error("Trace: " + e.Message.ToString());
                 Assert.Fail();
                 testPassed = false;
-                //return;
+
             }
 
         }
@@ -166,5 +161,5 @@ namespace BankTest
 }
 
 
-        
+
 

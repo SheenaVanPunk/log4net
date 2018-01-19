@@ -118,7 +118,7 @@ namespace BankAccountNS
 
             if (n_balance > 500)
             {
-               return n_balance ;
+               return n_balance;
             }
             else if (n_balance <= 100)
             {
@@ -129,10 +129,7 @@ namespace BankAccountNS
                 n_balance += 500;
                 return n_balance;
             }
-            /*if (n_balance < 0)
-            {
-                throw new ArgumentOutOfRangeException(n_balance.ToString());
-            } */
+            
         }
     }
 }

@@ -39,3 +39,4 @@ C:\C#\log4netTest\log4netTesting\bin\Debug\nunit.framework.xml
 C:\C#\log4netTest\log4netTesting\obj\Debug\log4netTesting.csproj.CoreCompileInputs.cache
 C:\C#\log4netTest\log4netTesting\obj\Debug\log4netTesting.dll
 C:\C#\log4netTest\log4netTesting\obj\Debug\log4netTesting.pdb
+C:\C#\log4netTest\log4netTesting\obj\Debug\log4netTesting.csprojResolveAssemblyReference.cache
